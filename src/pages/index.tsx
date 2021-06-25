@@ -5,6 +5,6 @@ const Heading = styled.h1`
   color: orange;
 `
 
-const IndexPage = () => <Heading>Hello world</Heading>
+const IndexPage: React.FC = () => <Heading>Hello world</Heading>
 
 export default IndexPage

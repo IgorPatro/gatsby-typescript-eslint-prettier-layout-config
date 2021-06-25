@@ -1,7 +1,14 @@
 {
-  "extends": ["airbnb", "airbnb/hooks", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }]
   },
   "settings": {
     "import/resolver": {
@@ -9,5 +16,8 @@
         "paths": ["src"]
       }
     }
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
   }
 }
