@@ -5109,6 +5109,11 @@ gatsby-plugin-page-creator@^3.7.1:
     globby "^11.0.3"
     lodash "^4.17.21"
 
+gatsby-plugin-root-import@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-root-import/-/gatsby-plugin-root-import-2.0.6.tgz#72f812ce7a16d67773651c7db1d42f68970ae73c"
+  integrity sha512-eG0D+cVL5djVI5nxuQoZE4wBBL6rUq/KBPqPv+69vYolTXzlyj0+vIkqr2Y/xWt8hTK9BB8IOMltGxUmXIenig==
+
 gatsby-plugin-styled-components@^4.7.1:
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-4.7.1.tgz#16774de3f2f9c49cb5d2622a01e6f162f17cfeb3"
